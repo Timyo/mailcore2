@@ -840,7 +840,6 @@ static int xover_resp_to_fields(struct newsnntp_xover_resp_item * item, struct m
                     r = MAIL_ERROR_MEMORY;
                     goto free_list;
                 }
-                break
 
             case MAILIMF_ERROR_PARSE:
                 break;
